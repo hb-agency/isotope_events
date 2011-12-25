@@ -1,0 +1,6 @@
+
+<div id="form_custom" class="form_gen_custom">
+<h2><?php echo $this->headline; ?></h2>
+<p><?php echo $this->message; ?></p>
+<?php echo $this->fields; ?>
+</div>

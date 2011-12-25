@@ -1,0 +1,16 @@
+
+<div class="form_review">
+<h2><?php echo $this->headline; ?></h2>
+<p><?php echo $this->message; ?></p>
+
+<div class="clear">&nbsp;</div>
+<table>
+	<?php for($i=0; $i<count($this->formdata); $i++): ?>
+		<tr><td>
+			<?php echo $this->formdata[$i]['name'] . ': '; ?>
+			<?php echo $this->formdata[$i]['value']; ?>
+		</td></tr>
+	<?php endfor; ?>
+</table>
+</div>
+

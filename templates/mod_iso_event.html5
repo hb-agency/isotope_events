@@ -1,0 +1,62 @@
+
+<!-- indexer::stop -->
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+
+<?php if ($this->headline): ?>
+<<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+<?php endif; ?>
+
+<?php if (strlen($this->message)): ?>
+	<p class="<?php echo $this->mtype; ?> message"><?php echo $this->message; ?></p>
+<?php endif; ?>
+
+
+
+<form action="<?php echo $this->action; ?>" id="<?php echo $this->formId; ?>" method="post" enctype="<?php echo $this->enctype; ?>">
+
+<?php echo $this->paymentForm; ?>
+<?php echo $this->donation_amount; ?>
+
+	<div class="formbody">
+	<input type="hidden" name="FORM_SUBMIT" value="<?php echo $this->formSubmit; ?>" />
+	<?php echo $this->hidden; ?>
+
+	<?php if($this->billingaddress): ?>
+	<?php echo $this->billingaddress; ?>
+	<div class="clear"></div>
+	<?php endif; ?>
+	
+	<?php if($this->shippingaddress): ?>
+	<?php echo $this->shippingaddress; ?>
+	<div class="clear"></div>
+	<?php endif; ?>
+	
+	<?php if($this->paymentoptions): ?>	
+	<?php echo $this->paymentoptions; ?>
+	<div class="clear"></div>
+	<?php endif; ?>
+	
+
+	
+	<?php if($this->orderreview): ?>	
+	<input type="hidden" name="FORM_CONFIRM" value="<?php echo $this->formconfirm; ?>" />
+	<?php echo $this->orderreview; ?>
+	<div class="clear"></div>
+	<?php endif; ?>
+	
+	<?php echo $this->formreview; ?>
+	<div class="clear"></div>
+
+	</div>
+	<div class="clear">&nbsp;</div>
+
+	<div class="submit_container">
+		<input type="submit" class="submit <?php echo $this->nextClass; ?> button" name="nextStep" value="<?php echo $this->nextLabel; ?>" />
+	</div>
+
+</form>
+
+<?php if (strlen($this->checkoutForm)): ?><div class="checkout_form"><?php echo $this->checkoutForm; ?></div><?php endif; ?>
+
+</div>
+<!-- indexer::continue -->

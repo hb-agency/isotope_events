@@ -1,0 +1,69 @@
+.mod_iso_eventcheckout table .custom_form {
+    width: 275px;
+}
+
+.mod_iso_eventcheckout table #custom_form {
+    width: 275px;
+}
+
+.mod_iso_eventcheckout .steps ul {
+    height: 25px;
+    margin: 10px 0 20px;
+    padding: 0;
+}
+.mod_iso_eventcheckout .steps3 li {
+    background-color: #000000;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    width: 32%;
+}
+.mod_iso_eventcheckout .steps4 li {
+    background-color: #000000;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    width: 24%;
+}
+.mod_iso_eventcheckout .steps5 li {
+    background-color: #000000;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    width: 19%;
+}
+.mod_iso_eventcheckout .steps li.active {
+    background-color: #8F1111;
+}
+.mod_iso_eventcheckout .steps li.last {
+    border-right: 0 none;
+}
+.mod_iso_eventcheckout .steps li.passed {
+    background: url("../../../../tl_files/layout/check.gif") no-repeat scroll left center #39B54A;
+}
+.mod_iso_eventcheckout .steps li.passed a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.mod_iso_eventcheckout table {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

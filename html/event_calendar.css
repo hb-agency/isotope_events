@@ -1,0 +1,76 @@
+.mod_iso_eventcalendar table td {
+background: url('../../../../tl_files/layout/cal-bg-blue.jpg') left top repeat-x rgb(191,199,209);
+font-size: 9px;
+text-align: right;
+color:black;
+width: 20px;
+height: 25px;
+}
+
+.mod_iso_eventcalendar .days.active{
+background: url('../../../../tl_files/layout/cal-bg-gold.jpg') left top repeat-x rgb(184,157,84);
+
+
+}
+
+.mod_iso_eventcalendar .days.active a{
+	font-size: 9px;
+	text-decoration: none;
+	text-align: right;
+	color:black;
+    display:block;
+    height: 25px
+    width: 20px;
+    border: white;
+}
+
+.mod_iso_eventcalendar td.days.active:hover{
+	opacity:.5;
+	-moz-opacity:.5;
+	filter:alpha(opacity=50);
+}
+
+.mod_iso_eventcalendar .label {
+background-color: rgb(191,199,209);
+text-align: center;
+color:black;
+
+}
+
+.mod_iso_eventcalendar .head {
+background-color: rgb(102,153,204);
+text-align: center;
+font-size: 10px;
+text-transform: uppercase;
+color:white;
+border-right-width: 0px;
+border-left-width: 0px;
+border-bottom-width: thick;
+border-bottom-color: white;
+}
+
+.mod_iso_eventcalendar .head img {
+vertical-align: center;
+padding-top: 3px;
+background-color: rgb(102,153,204);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
